@@ -6,8 +6,6 @@ build-type:        Simple
 library
     hs-source-dirs:  src
     exposed-modules: Types.Ids
-
-    ghc-options:   -Wall -fwarn-tabs -O2
     default-language: Haskell2010
 
     build-depends: base
@@ -17,7 +15,6 @@ test-suite test
     main-is:           Spec.hs
     hs-source-dirs:    test
     default-language:  Haskell2010
-    ghc-options:       -Wall
     other-modules: NotWorking
 
     build-depends: base
