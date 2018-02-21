@@ -4,5 +4,5 @@ import Data.Text (Text)
 
 newtype MyId = MyId Int
 
-idFromText :: Text -> Maybe MyId
-idFromText _ = MyId <$> Just 0
+idFromText :: Text -> MyId
+idFromText _ = MyId 0
