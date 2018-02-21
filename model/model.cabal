@@ -13,7 +13,6 @@ library
     build-depends: base
                  , classy-prelude
                  , text
-                 , uuid
 
 test-suite test
     type:              exitcode-stdio-1.0
