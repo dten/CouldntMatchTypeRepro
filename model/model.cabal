@@ -11,8 +11,6 @@ library
     default-language: Haskell2010
 
     build-depends: base
-                 , classy-prelude
-                 , text
 
 test-suite test
     type:              exitcode-stdio-1.0
@@ -23,8 +21,5 @@ test-suite test
     other-modules: NotWorking
 
     build-depends: base
-                 , hspec
-                 , hspec-core
-                 , text
                  , model
                  , testing
