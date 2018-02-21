@@ -1,6 +1,6 @@
 module Test.Ids where
 
-import Types.Ids (MyId, idFromText)
+import Types.Ids (MyId, modelMakeId)
 
-makeId :: MyId
-makeId = idFromText
+testingMakeId :: MyId
+testingMakeId = modelMakeId
