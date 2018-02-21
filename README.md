@@ -1,5 +1,7 @@
 ## This project does not compile since Stackage changed to GHC 8.2.1
 
+Results for different stacakges for running `stack test` :
+
 ```
 resolver: nightly-2017-07-31 # does not work
 resolver: nightly-2017-07-25 # works
