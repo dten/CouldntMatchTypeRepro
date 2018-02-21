@@ -1,4 +1,4 @@
-module Test.Ids where
+module Test.Ids (testingMakeId) where
 
 import Types.Ids (MyId, modelMakeId)
 
