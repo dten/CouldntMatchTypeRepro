@@ -1,6 +1,6 @@
 module Types.Ids where
 
-newtype MyId = MyId Int
+data MyId = MyId
 
 idFromText :: MyId
-idFromText = MyId 0
+idFromText = MyId
