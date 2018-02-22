@@ -1,6 +1,6 @@
-module Test.Ids (testingMakeId) where
+module Test.Ids (makeId) where
 
-import Types.Ids (MyId, modelMakeId)
+import Types.Ids (MyId(MyId))
 
-testingMakeId :: MyId
-testingMakeId = modelMakeId
+makeId :: MyId
+makeId = MyId

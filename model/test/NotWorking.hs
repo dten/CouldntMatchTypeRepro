@@ -4,4 +4,4 @@ import Types.Ids
 import Test.Ids
 
 iDontWork :: MyId
-iDontWork = testingMakeId
+iDontWork = makeId
