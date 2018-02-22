@@ -1,4 +1,18 @@
-## This project does not compile since Stackage changed to GHC 8.2.1
+## This project does not compile since Stackage changed to GHC 8.2.1 with the following error
+
+```
+    test\NotWorking.hs:7:13: error:
+        * Couldn't match expected type `MyId'
+                      with actual type `model-0.0.0:Types.Ids.MyId'
+          NB: `model-0.0.0:Types.Ids.MyId'
+                is defined in `Types.Ids' in package `model-0.0.0'
+              `MyId' is defined in `Types.Ids' in package `model-0.0.0'
+        * In the expression: makeId
+          In an equation for `iDontWork': iDontWork = makeId
+      |
+    7 | iDontWork = makeId
+      |             ^^^^^^
+```
 
 Results for different stacakges for running `stack test` :
 
